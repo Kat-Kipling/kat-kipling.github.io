@@ -32,14 +32,22 @@ h1 {
   font-size: 2em;
 }
 
-#infoSection1 {
+#welcome {
+  background-color: rgb(104, 104, 104);
+}
+
+#basicIntro {
   background-color: rgb(218, 8, 130);
 }
 
-#infoSection2 {
+#portfolioIntro {
   background-color: rgb(241, 117, 0);
 }
 
-#infoSection3 {
+#blogIntro {
+  background-color: rgb(255, 0, 0);
+}
+
+#fullInfo {
   background-color: rgb(9, 255, 140);
 }
