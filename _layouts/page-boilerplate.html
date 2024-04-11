@@ -1,0 +1,10 @@
+---
+layout: html-boilerplate
+---
+{% include header.html %} <!-- Using a seperate header for customisation -->
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }} <!-- The content of whatever .html file inherits this file will be placed here. -->
+    </div>
+  </main>
+{% include footer.html %} <!-- Using a seperate footer for customisation -->
