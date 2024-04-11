@@ -1,5 +1,5 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: # the subpath of your site, e.g. /blog
 title: Kat Kipling # the name of your site, e.g. ACME Corp.
 email: kat.kipling@proton.me
 # Social links; will appear in footer and contact page
