@@ -5,17 +5,34 @@ layout: html-boilerplate
 <!-- The contents of this file will be included where the content tags are in base.html. -->
 <div class="full-screen-section" id="fullScreenSection">
     <div id="welcome" class="info-item">
-        <h1>Hi! I'm Kat.</h1>
-        <h2>I'm mainly a backend developer from Belfast, but I can do frontend too.</h2>
-        <p>Lorem Ipsum</p>
+        <div class="information-overview">
+            <h1>Hi! I'm Kat.</h1>
+            <h2>I'm mainly a backend developer from Belfast, but I can do frontend too.</h2>
+        </div>
+        <div class="detailed-information">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ullamcorper arcu non egestas volutpat. 
+                Phasellus at fringilla turpis. Nam viverra nulla ut ipsum suscipit efficitur. Nam euismod risus sapien, nec fermentum dui ullamcorper eget. 
+                Vestibulum dictum euismod dui sed pharetra. Integer sed mollis quam.</p>
+        </div>
     </div>
 
     <div id="portfolioIntro" class="info-item">
-        <h1>Take a look at <a href="{% link portfolio.md %}">what I've made.</a></h1>
+        <div class="detailed-information">
+            <p>most recent portfolio work will go here waowie</p>
+        </div>
+        <div class="information-overview">
+            <h1>See all <a href="{% link portfolio.md %}">my projects</a></h1>
+        </div>
+        
     </div>
 
     <div id="blogIntro" class="info-item">
-        <h1>Or read about <a href="{% link blogs.md %}">what I'm doing.</a></h1>
+        <div class="information-overview">
+            <h1>Read all posts about <a href="{% link blogs.md %}">what I'm doing.</a></h1>
+        </div>
+        <div class="detailed-information">
+            <p>most recent blog post go here waowie again</p>
+        </div>
     </div>
 
     <div id="fullInfo" class="info-item">

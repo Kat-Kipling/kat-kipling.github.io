@@ -17,12 +17,21 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 50px;
   scroll-snap-align: start;
 }
 
+.information-overview
+{
+  width: 70%;
+}
+
+.detailed-information
+{
+  width: 30%;
+}
+
 h1 {
-  font-size: 2em;
+  font-size: 4em;
 }
 
 #welcome {
