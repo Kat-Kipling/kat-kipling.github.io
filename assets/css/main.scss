@@ -13,7 +13,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow-y: scroll;
-  scroll-snap-type: mandatory;
+  scroll-snap-type: y mandatory;
 }
 
 .info-item {
@@ -23,7 +23,6 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
   gap: 50px;
   scroll-snap-align: start;
 }
@@ -33,19 +32,20 @@ h1 {
 }
 
 #welcome {
-  background-color: rgb(104, 104, 104);
+  background-color: #37e9ac;
+  scroll-snap-align: start;
 }
 
 #basicIntro {
-  background-color: rgb(218, 8, 130);
+  background-color: #88ccf1;
 }
 
 #portfolioIntro {
-  background-color: rgb(241, 117, 0);
+  background-color: #d9bdc5;
 }
 
 #blogIntro {
-  background-color: rgb(255, 0, 0);
+  background-color: #e8c7de;
 }
 
 #fullInfo {
