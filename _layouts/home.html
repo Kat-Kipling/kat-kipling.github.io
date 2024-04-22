@@ -10,10 +10,10 @@ layout: html-boilerplate
         </div>
         <div id="window-body">
             <div id="top-command">
-                <p>kat.kipling:~$ info</p>
+                <p>kat.kipling:~$ <span id="typedtext"></span></p>
             </div>
 
-            <main>
+            <main class="fade-in-main">
                 <div id="main-content">
                     {{ content }}
                 </div>
@@ -33,7 +33,7 @@ layout: html-boilerplate
                 </nav>
             </main>
 
-            <div id="bottom-command">
+            <div id="bottom-command" class="show-new-command">
                 <p>kat.kipling:~$ </p>
             </div>
         </div>

@@ -10,7 +10,6 @@ html
 
 body
 {
-    background-color: #F2E3E3;
     height: 100vh;
     font-family: 'Quicksand';
     font-size: 2.25rem;
@@ -46,7 +45,7 @@ h1
 
 #top-command p
 {
-    margin-top: 0;
+    margin: 0;
 }
 
 #window-body
@@ -65,6 +64,7 @@ main
 {
     display: flex;
     width: 100%;
+    opacity: 0;
 }
 #main-content
 {
@@ -86,4 +86,26 @@ main
     background-color: #F2E3E3;
     width: 70%;
     text-align: center;
+}
+
+.fade-in-main 
+{
+    animation: fade-in-main 2.3s ease 1.2s forwards;
+}
+
+.show-new-command
+{
+    animation: show-new-command 0s ease 1.2s forwards;
+    visibility: hidden;
+}
+
+@keyframes fade-in-main 
+{
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@keyframes show-new-command 
+{
+    to   { visibility: visible; }
 }
