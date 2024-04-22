@@ -3,12 +3,6 @@
 
 @import "base";
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
 .full-screen-section {
   width: 100vw;
   height: 100vh;
@@ -36,12 +30,8 @@ h1 {
   scroll-snap-align: start;
 }
 
-#basicIntro {
-  background-color: #88ccf1;
-}
-
 #portfolioIntro {
-  background-color: #d9bdc5;
+  background-color: #88ccf1;
 }
 
 #blogIntro {
