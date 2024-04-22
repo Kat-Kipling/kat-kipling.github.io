@@ -3,44 +3,46 @@ layout: html-boilerplate
 ---
 <!-- The above lets this file use the base.html file from _layouts as a skeleton for this file. -->
 <!-- The contents of this file will be included where the content tags are in base.html. -->
-<div class="full-screen-section" id="fullScreenSection">
-    <div id="welcome" class="info-item">
-        <div class="information-overview">
-            <h1>Hi! I'm Kat.</h1>
-            <h2>I'm mainly a backend developer from Belfast, but I can do frontend too.</h2>
+<div id="site-wrapper">
+    <div id="inner-wrapper">
+        <div id="window-title">
+            <p>kat.kipling@dev: ~</p>
         </div>
-        <div class="detailed-information">
-            <p>I mainly work with C#, Python and SQL for server-side scripting and data engineering. However, I know a range of other programming languages,
-                including front-end technologies such as HTML5+CSS3+JS and Angular.
-            </p>
+        <div id="window-body">
+            <div id="top-command">
+                <p>kat.kipling:~$ info</p>
+            </div>
 
-            <p>
-                In my spare time, I enjoy learning music (I play guitar and bass), video games such as Valorant, and spending time with friends.
-            </p>
-        </div>
-    </div>
+            <main>
+                <div id="main-content">
+                    <h1>Hi. I'm Kat.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at  consectetur tellus, sed facilisis mauris.
+                        Aliquam convallis ipsum est,  eu suscipit est tempor sit amet. Donec consequat efficitur imperdiet.</p>
+                    <p>Nunc laoreet semper nunc, ut mollis felis finibus ac. Nullam nisl diam,  tempus nec diam eget, maximus consectetur arcu. 
+                        Sed malesuada, arcu  vitae euismod lobortis, ex urna placerat lacus, ac venenatis nisl purus  sed elit.</p>
+                    <p>Ut viverra elit id magna tempor venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                        Maecenas lacinia laoreet tortor, quis posuere quam efficitur vulputate.</p>
+                </div>
+    
+                <nav id="navigation">
+                    <div class="nav-button">
+                        <p>info</p>
+                    </div>
 
-    <div id="portfolioIntro" class="info-item">
-        <div class="detailed-information">
-            <p>most recent portfolio work will go here waowie</p>
-        </div>
-        <div class="information-overview">
-            <h1>See all <a href="{% link portfolio.md %}">my projects</a></h1>
-        </div>
-        
-    </div>
+                    <div class="nav-button">
+                        <p>portfolio</p>
+                    </div>
 
-    <div id="blogIntro" class="info-item">
-        <div class="information-overview">
-            <h1>Read all posts about <a href="{% link blogs.md %}">what I'm doing.</a></h1>
-        </div>
-        <div class="detailed-information">
-            <p>most recent blog post go here waowie again</p>
-        </div>
-    </div>
+                    <div class="nav-button">
+                        <p>contact & links</p>
+                    </div>
+                </nav>
+            </main>
 
-    <div id="fullInfo" class="info-item">
-        {{ content }}
+            <div id="bottom-command">
+                <p>kat.kipling:~$ </p>
+            </div>
+        </div>
     </div>
 </div>
 
